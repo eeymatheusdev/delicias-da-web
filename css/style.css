@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif; /* Define a fonte do texto para Arial (ou outra sans-serif) */
+  margin: 0; /* Remove a margem externa padrão do navegador */
+  padding: 0; /* Remove o espaçamento interno */
+  background-color: #f8f8f8; /* Define a cor de fundo da página */
+}
+
+header {
+  background-color: #e74c3c; /* Fundo vermelho (tom forte) */
+  color: white; /* Texto branco */
+  padding: 1em; /* Espaçamento interno de 1 "em" (~16px) */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+nav ul {
+  list-style: none; /* Remove os marcadores de lista padrão (bolinhas) */
+  padding: 0; /* Remove o espaço interno da lista */
+}
+
+nav ul li {
+  display: inline; /* Faz os itens da lista ficarem lado a lado */
+  margin: 0 15px; /* Espaço de 15px entre cada item, nos lados */
+}
+
+nav ul li a {
+  color: white; /* Links com texto branco */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+main {
+  padding: 20px; /* Espaçamento interno de 20px em todos os lados */
+}
+
+footer {
+  background-color: #222; /* Fundo preto/cinza escuro */
+  color: white; /* Texto branco */
+  text-align: center; /* Alinha o texto no centro */
+  padding: 10px 0; /* Espaço vertical (cima/baixo) de 10px */
+  position: fixed; /* Fixa o rodapé na tela */
+  width: 100%; /* Ocupa toda a largura da tela */
+  bottom: 0; /* Gruda no final da página */
+}
+
+section {
+  text-align: center; /* Centraliza o conteúdo da section (textos, imagens, etc.) */
+}
+
+#banner {
+  display: block; /* Faz a imagem se comportar como um bloco (ocupa linha toda) */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 30%; /* A imagem terá no máximo 30% da largura da tela */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+table {
+  width: 100%; /* Ocupa toda a largura disponível */
+  border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+  margin-top: 20px; /* Espaço acima da tabela */
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc; /* Borda cinza clara para tabela e células */
+}
+
+th,
+td {
+  padding: 10px; /* Espaço interno nas células */
+  text-align: left; /* Alinha o conteúdo à esquerda */
+}
+
+.item {
+  width: 100px; /* Largura fixa de 100px */
+  height: auto; /* Altura automática (mantém proporção) */
+  border-radius: 8px; /* Bordas levemente arredondadas */
+  object-fit: cover; /* Corta e ajusta a imagem para caber no espaço */
+}
+
+form {
+  max-width: 500px; /* Largura máxima de 500px */
+  margin: 0 auto; /* Centraliza o formulário na página */
+  display: flex; /* Usa Flexbox para organizar os elementos */
+  flex-direction: column; /* Coloca os elementos um embaixo do outro */
+}
+
+form label,
+form input,
+form textarea,
+form button {
+  margin-bottom: 10px; /* Espaço entre os elementos do formulário */
+}
+
+form input,
+form textarea {
+  padding: 8px; /* Espaço interno nos campos */
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 4px; /* Bordas levemente arredondadas */
+}
+
+form button {
+  background-color: #e74c3c; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  border: none; /* Sem borda */
+  padding: 10px; /* Espaço interno */
+  cursor: pointer; /* Muda o cursor para "mãozinha" */
+  border-radius: 4px; /* Bordas arredondadas */
+}
